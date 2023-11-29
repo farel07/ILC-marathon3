@@ -254,3 +254,35 @@ footer {
   color: white;
   border-bottom: 5px solid black;
 }
+
+
+@media screen and (max-width: 768px){
+  
+   .section1 {
+    flex-direction : column-reverse;
+   }
+   .section1-2 {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   .section1-1 {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   .form-regist {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   .article1 {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+  }
